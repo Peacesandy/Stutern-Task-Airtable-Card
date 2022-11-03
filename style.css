@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 12px;
+}
